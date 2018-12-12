@@ -1,0 +1,25 @@
+.container-fluid {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+div.row div {
+    text-align: center;
+}
+
+div.col {
+    border: none;
+}
+
+#second-row {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.profimg {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+
+}
+

@@ -1,0 +1,153 @@
+body
+{
+	margin: 0 auto;
+	background-color: gray;
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+}
+
+.container
+{
+	width: 500px;
+	height: 300px;
+	background-color: dimgray;
+	border-radius: 4px;
+	margin: 0, auto;
+	margin-top: -200px; 
+	margin-left: 430px;
+}
+
+.container img
+{
+	width: 120px;
+	height: 120px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+}
+
+h1
+{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: 100px;
+	margin-top: 150px; 
+	margin-left: 0px;
+}
+
+input 
+{
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #ffffff;
+	padding-left: 40px; 
+}
+.form-input::before
+{
+	content: "\f007";
+	position: absolute;
+	font-family: "FontAwesome";
+	padding-left: 5px;
+	color: #10478D;
+	padding-top: 5px;
+	font-size: 35px;
+}
+
+.form-input:nth-child(2)::before
+{
+	content: "\f023";
+}
+
+.form-input:last-child::before
+{
+	content: "\f023";
+}
+.btn-login
+{
+	width: 20%;
+	padding: 10px 30px;
+	color: white;
+	border-radius: 4px;
+	border: none;
+	background-color: #10478D;
+	border-bottom: 4px solid;
+	border-top: 4px solid;
+}
+
+.btn-login:hover
+{
+	color: #10478D;
+	background-color: white;
+}
+
+.btn-signup
+{
+	width: 20%;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 4px;
+	border: none;
+	background-color: #10478D;
+	border-bottom: 4px solid;
+	border-top: 4px solid;
+}
+
+.btn-signup:hover
+{
+	color: #10478D;
+	background-color: white;
+}
+
+p
+{
+	color: white;
+	font-size: 25px;
+	font-style: italic;
+	text-align: center;
+	margin-left: 455px;
+	margin-top:  -170px;
+	float: left;
+}
+
+.login a
+{
+	padding: 10px 20px;
+	margin-left: 530px;
+	margin-top: -100px;
+	display: inline-block;
+	border-radius: 5px;
+	background-color: skyblue;
+	text-decoration: none;
+	color: white;
+	text-shadow: 0 1px 1px #ccc;
+	float: left;
+	font-size: 20px;
+}
+
+.login a:hover
+{
+	opacity: 0.8;
+}
+
+.signup a
+{
+	padding: 10px 20px;
+	margin-left: 725px;
+	margin-top: -100px;
+	display: inline-block;
+	border-radius: 5px;
+	background-color: gold;
+	text-decoration: none;
+	color: white;
+	text-shadow: 0 1px 1px #ccc;
+	float: left;
+	font-size: 20px;
+}
+
+.signup a:hover
+{
+	opacity: 0.8;
+}
