@@ -1,6 +1,6 @@
 # onlinetechGroupJ
 A school project by Adamson University students in Online Technology(Web Development).
-
+(Incomplete Project)
 To make the API work.
 
 Install the following:
