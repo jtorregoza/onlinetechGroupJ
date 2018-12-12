@@ -1,0 +1,37 @@
+body {
+    font-family: Cambria;
+  }
+
+  .container {
+    border: 3px solid black;
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    margin-top: 200px;
+  }
+
+  #illust {
+    text-align: center;
+  }
+
+  #submit {
+    text-align: center;
+  }
+
+  input {
+    text-align: center;
+    font-style: italic;
+  }
+
+  #homebutton:hover {
+    text-decoration: none;
+  }
+
+  #homebutton {
+    border: 1px solid gray;
+    padding: 4px;
+    margin-right: 5px;
+    color: black;
+    background-color: rgb(242,244,239);
+    font-style: italic;
+  }

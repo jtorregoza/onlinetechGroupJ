@@ -1,0 +1,37 @@
+body {
+  font-family: Cambria;
+  font-style: italic;
+}
+
+.container {
+    width: 200px;
+    height: 135px;
+    text-align: center;
+    padding: 30px;
+    border: 2px solid black;
+    margin-top: 250px;
+  }
+
+  #illust {
+    border: 2px solid black;
+    padding: 5px 42px 5px 42px;
+  }
+
+  #login {
+    border: 2px solid black;
+    padding: 5px;
+  }
+
+  #sign-up {
+    border: 2px solid black;
+    padding: 5px;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  a:active {
+    text-decoration: none;
+    color: red;
+  }
