@@ -14,5 +14,8 @@ Run the following command in the terminal of the same folder:
 - npm install --save mongoose
 - npm install -g nodemon
 
+RUN the database on the command prompt:
+-mongod
+
 RUN the API using:
 - nodemon server.js
